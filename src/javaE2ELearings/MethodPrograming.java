@@ -20,7 +20,7 @@ public class MethodPrograming {
 	public static void prime(int a) {
        if (a%2==0)
        {
-    	   System.out.println("Is a prime number");
+    	   System.out.println("Is a prime number in main branch");
        }else 
        {
     	   System.out.println("not a prime number");
