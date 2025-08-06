@@ -23,6 +23,7 @@ public class MethodPrograming {
        }else 
        {
     	   System.out.println("not a prime number");
+    	   System.out.println("Your are correct its not a Prime number");
        }
 	}
 }
