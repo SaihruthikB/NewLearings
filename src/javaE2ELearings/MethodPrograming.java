@@ -20,10 +20,13 @@ public class MethodPrograming {
 	public static void prime(int a) {
        if (a%2==0)
        {
+    	   System.out.println("Is a prime number in Sai_Hruthik_Bolly Git Branch");
     	   System.out.println("Is a prime number in main branchgit ");
        }else 
        {
     	   System.out.println("not a prime number");
+    	   System.out.println("Your are correct its not a Prime number");
+    	   System.out.println("Your are correct its not a Prime number");
        }
 	}
 }
