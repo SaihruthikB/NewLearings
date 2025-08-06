@@ -7,6 +7,7 @@ public class MethodPrograming {
 		System.out.println(Intergaer);
 		prime(30);
 		prime(29);
+		prime(40);
 
 	}
 
