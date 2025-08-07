@@ -5,6 +5,7 @@ git commit -m "commit message" -- to commit the piece of code written [it used f
 git push origin branchname - to Push the code afte the commit
 git stash - to stash the code which is not staged or you dont want to tracker the chnages 
 git stash pop - to get back the changes
+git stash clear - clean all the stashed files
 git checkout -b branchname - to create the new branch & checkin to that branch
 git checkout branchname - to checkin to the branch
 git restore --staged filename - to make changes to the staged files - or undo the added file 
@@ -53,3 +54,14 @@ git log	Show commit history
 git log --oneline	Show compact one-line history
 git diff	Show file differences not yet staged
 git diff --staged	Show staged file differences
+
+Topic	Why It’s Useful
+git rebase	Rewriting commit history / cleaner merges
+git cherry-pick	Apply specific commits from another branch
+git revert	Undo a commit (without deleting history)
+git tag	Mark releases or versions
+.gitignore	Exclude files from being tracked (e.g., logs, secrets)
+git config	Customize Git behavior (name, email, editor)
+git blame	See who made each line change in a file
+git reflog	View local branch history (even deleted commits!)
+git clean -fd	Remove untracked files & directories (⚠️ irreversible)
