@@ -1,0 +1,55 @@
+git init - To innitize the git remo
+git add . - to add all the files in that directory [or location]
+git status - to check the status of the git repo
+git commit -m "commit message" -- to commit the piece of code written [it used for tracking purpose]
+git push origin branchname - to Push the code afte the commit
+git stash - to stash the code which is not staged or you dont want to tracker the chnages 
+git stash pop - to get back the changes
+git checkout -b branchname - to create the new branch & checkin to that branch
+git checkout branchname - to checkin to the branch
+git restore --staged filename - to make changes to the staged files - or undo the added file 
+
+🔹 Basic Git Workflow
+Command	Description
+git init	Initialize a new Git repository in the current directory
+git add .	Add all changes (new, modified, deleted files) to the staging area
+git status	Check the current status of the working directory and staging area
+git commit -m "message"	Commit staged changes with a message (creates a save point in history)
+git push origin branchname	Push committed changes to a remote repository (e.g., GitHub)
+
+🔹 Branching
+Command	Description
+git checkout -b branchname	Create a new branch and switch to it
+git checkout branchname	Switch to an existing branch
+git branch	List all local branches
+git branch -d branchname	Delete a local branch (safe)
+git branch -D branchname	Force delete a local branch
+git merge branchname	Merge a branch into the current one
+
+🔹 Stashing Changes
+Command	Description
+git stash	Save uncommitted changes temporarily (clean working dir)
+git stash pop	Re-apply the last stashed changes and remove them from stash
+git stash list	List all stashed changes
+git stash apply stash@{n}	Apply a specific stash without removing it
+
+🔹 Restoring & Undoing
+Command	Description
+git restore filename	Discard changes in the working directory (revert to last commit)
+git restore --staged filename	Unstage a file (keep local changes but remove from staging)
+git reset	Unstage all changes (soft reset to last commit)
+git reset --hard	Discard all changes and reset to last commit (warning: destructive)
+
+🔹 Remote Repositories
+Command	Description
+git remote -v	Show remote URLs connected to the repo
+git remote add origin <url>	Add a new remote repo URL (e.g., GitHub)
+git clone <url>	Clone a repo from a remote to your machine
+git pull origin branchname	Fetch and merge latest code from remote branch
+
+🔹 Log & History
+Command	Description
+git log	Show commit history
+git log --oneline	Show compact one-line history
+git diff	Show file differences not yet staged
+git diff --staged	Show staged file differences
